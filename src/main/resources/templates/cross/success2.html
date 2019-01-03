@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO2的欢迎页面</title>
+</head>
+<body>
+欢迎访问DEMO2，这是DEMO2的主页
+<span th:each="url:${hiddenURL}">
+    <iframe th:src="${url}" width="0px" height="0px" style="display: none"/>
+</span>
+</body>
+</html>
