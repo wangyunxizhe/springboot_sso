@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * Created by wangy on 2018/11/22.
  */
-@Component
+@Component("crossDemo2Tool")
 public class Demo2Tool {
 
     public String doGet(String url, Map<String, String> map) {

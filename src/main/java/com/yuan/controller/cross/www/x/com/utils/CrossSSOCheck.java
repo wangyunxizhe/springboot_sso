@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by wangy on 2018/11/20.
  */
-@Component
+@Component("crossSSOCheck")
 public class CrossSSOCheck {
 
     public static final String USERNAME = "user";

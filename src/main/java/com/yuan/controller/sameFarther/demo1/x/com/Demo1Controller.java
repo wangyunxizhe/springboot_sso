@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by wangy on 2018/11/20.
  */
-@Controller
+@Controller("sameFartherDemo1")
 @RequestMapping("/sameFarther/demo1")
 public class Demo1Controller {
 

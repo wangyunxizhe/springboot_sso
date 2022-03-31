@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * Created by wangy on 2018/11/20.
  */
-@Controller
+@Controller("crossDemo2")
 @RequestMapping("/crossdemo2")
 public class Demo2Controller {
 

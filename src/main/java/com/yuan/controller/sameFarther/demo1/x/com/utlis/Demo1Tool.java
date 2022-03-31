@@ -11,7 +11,7 @@ import java.net.URL;
 /**
  * Created by wangy on 2018/11/22.
  */
-@Component
+@Component("sameFartherDemo1Tool")
 public class Demo1Tool {
 
     public String doGet(String url, String cookieName, String cookieValue) {

@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  * http://www.b.com/aaa/bbb/ccc
  * 统一登录校验的接口URL====http://www.x.com/cross/sso/checkCookie
  */
-@Controller
+@Controller("crossSSO")
 @RequestMapping("/cross/sso")
 public class SSOController {
 

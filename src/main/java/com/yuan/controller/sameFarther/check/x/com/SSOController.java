@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  * http://demo2.x.com/sameFarther/demo2/main
  * 统一登录校验的接口URL====http://check.x.com/sameFarther/sso/checkCookie
  */
-@Controller
+@Controller("sameFartherSSO")
 @RequestMapping("/sameFarther/sso")
 public class SSOController {
 
